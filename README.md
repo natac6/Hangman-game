@@ -37,7 +37,7 @@ Overcoming Challenges:
 One challenging aspect could be ensuring that the game logic works seamlessly, especially with functions like collision detection in a game loop. This specific Hangman implementation, being a text-based game, might not have encountered the same challenges as a graphical game. However, for graphical games, managing animations, collisions, and rendering efficiently can be complex.
 
 Two Things to Add:
-Difficulty Levels:
-Introduce difficulty levels that affect the word pool or the allowed incorrect guesses, providing a more tailored experience for players of different skill levels.
+implement a Timer:
+Add a time element to increase the challenge. For example, you can set a time limit for each guess or for the entire game. If the player doesn't guess within the time limit, it counts as an incorrect guess. 
 Visual Enhancements:
 Consider adding more visual elements like animations, sound effects, or themed graphics to enhance the overall user experience and engagement.
